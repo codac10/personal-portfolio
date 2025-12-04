@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio de Inversiones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Mi Portfolio de Inversiones</h1>
+            <p class="subtitle">Seguimiento de rendimientos y análisis</p>
+        </header>
+
+        <section class="summary-cards">
+            <div class="card">
+                <h3>Valor Total</h3>
+                <p class="value" id="valorTotal">€0</p>
+            </div>
+            <div class="card">
+                <h3>Rendimiento Total</h3>
+                <p class="value" id="rendimientoTotal">0%</p>
+            </div>
+            <div class="card">
+                <h3>Mejor Inversión</h3>
+                <p class="value" id="mejorInversion">-</p>
+            </div>
+        </section>
+
+        <section class="chart-section">
+            <h2>Evolución del Portfolio</h2>
+            <canvas id="evolucionChart"></canvas>
+        </section>
+
+        <section class="chart-section">
+            <h2>Distribución por Activo</h2>
+            <canvas id="distribucionChart"></canvas>
+        </section>
+
+        <section class="holdings-table">
+            <h2>Detalle de Posiciones</h2>
+            <table id="tablaInversiones">
+                <thead>
+                    <tr>
+                        <th>Activo</th>
+                        <th>Cantidad</th>
+                        <th>Precio Compra</th>
+                        <th>Precio Actual</th>
+                        <th>Rendimiento</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>Última actualización: <span id="lastUpdate"></span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
