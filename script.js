@@ -22,10 +22,10 @@ const portfolioData = {
     
     // Compras de MSTR
     comprasMSTR: [
-        { fecha: "2024-06-09", acciones: 1.01, precioEUR: 322 },
-        { fecha: "2024-06-25", acciones: 1.05, precioEUR: 314 },
-        { fecha: "2024-07-30", acciones: 1.70, precioEUR: 326 },
-        { fecha: "2024-08-31", acciones: 2.08, precioEUR: 337 },
+        { fecha: "2025-06-09", acciones: 1.01, precioEUR: 322 },
+        { fecha: "2025-06-25", acciones: 1.05, precioEUR: 314 },
+        { fecha: "2025-07-30", acciones: 1.70, precioEUR: 326 },
+        { fecha: "2025-08-31", acciones: 2.08, precioEUR: 337 },
         { fecha: "2024-10-08", acciones: 5.00, precioEUR: 178 },
         { fecha: "2024-11-07", acciones: 1.00, precioEUR: 249 },
         { fecha: "2024-11-11", acciones: 1.00, precioEUR: 281 },
